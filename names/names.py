@@ -17,6 +17,8 @@ duplicates = []  # Return the list of duplicates in this data structure
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
+
+# code is O(n) linear or O(n log n) linearithmic   <-----------runtime
 for name in names_1:
     if name in names_2:
         duplicates.append(name)
